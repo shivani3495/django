@@ -10,7 +10,7 @@ urlpatterns = [
     #path('stuinfo/', views.student_list)
     #path('stuinfo/',views.student_list,name="stuinfo"),
     path('',views.index,name="index"),
-    path('studentapi/', views.StudentModelViewSet.as_view()),
+    path('details/', views.WomenList.as_view()),
     #path('', include(router.urls)),
     #path('studentapi/', views.StudentModelViewSet),
 ]
