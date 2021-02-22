@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login as login_view, logout as logout_view
 from django.contrib.auth.decorators import login_required
 from django.views.generic.edit import DeleteView
-
+#from django.restframework
 
 def index(request):
     return render(request, 'index.html')
